@@ -1,0 +1,328 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A_DoMem	Maid.cpp	/^A_DoMem(bool isStore, void *ea, ADDRINT pc)$/;"	f	file:
+A_EnterMainImage	Maid.cpp	/^A_EnterMainImage(ADDRINT ip, ADDRINT target, ADDRINT sp)$/;"	f	file:
+A_ProcessDirectCall	Maid.cpp	/^void A_ProcessDirectCall(ADDRINT ip, ADDRINT target, ADDRINT sp)$/;"	f
+A_ProcessIndirectCall	Maid.cpp	/^void A_ProcessIndirectCall(ADDRINT ip, ADDRINT target, ADDRINT sp)$/;"	f
+A_ProcessReturn	Maid.cpp	/^A_ProcessReturn(ADDRINT ip, ADDRINT sp) {$/;"	f	file:
+A_ProcessStub	Maid.cpp	/^A_ProcessStub(ADDRINT ip, ADDRINT target, ADDRINT sp) $/;"	f	file:
+A_ProcessSyscall	Maid.cpp	/^void A_ProcessSyscall(ADDRINT ip, UINT32 num, ADDRINT sp, ADDRINT arg0)$/;"	f
+A_RegisterAddr	Maid.cpp	/^void A_RegisterAddr(void *addr)$/;"	f
+A_UnregisterAddr	Maid.cpp	/^void A_UnregisterAddr(void *addr)$/;"	f
+Activation	CallStack.H	/^  Activation(int index, ADDRINT current_sp, ADDRINT target):$/;"	f	class:Activation
+Activation	CallStack.H	/^class Activation {$/;"	c
+AdjustStack	CallStack.cpp	/^CallStack::AdjustStack(ADDRINT current_sp)$/;"	f	class:CallStack
+CONFIG_ROOT	makefile	/^CONFIG_ROOT := $(PIN_ROOT)\/source\/tools\/Config$/;"	m
+CONFIG_ROOT	makefile	/^CONFIG_ROOT := ..\/Config$/;"	m
+CallStack	CallStack.H	/^class CallStack {$/;"	c
+CreateActivation	CallStack.cpp	/^CallStack::CreateActivation(ADDRINT current_sp, ADDRINT target)$/;"	f	class:CallStack
+DO_CASE	syscall_names.cpp	593;"	d	file:
+DO_CASE	syscall_names.cpp	944;"	d	file:
+Depth	CallStack.H	/^  UINT64 Depth() {return _activations.size();}$/;"	f	class:CallStack
+DumpStack	CallStack.cpp	/^CallStack::DumpStack(ostream *o)$/;"	f	class:CallStack
+I_ImageLoad	Maid.cpp	/^I_ImageLoad(IMG img, void *v) $/;"	f	file:
+I_Trace	Maid.cpp	/^static void I_Trace(TRACE trace, void *v)$/;"	f	file:
+IpDoesPush	Maid.cpp	/^bool IpDoesPush (ADDRINT ip)$/;"	f
+IsPLT	Maid.cpp	/^static BOOL IsPLT(TRACE trace)$/;"	f	file:
+NUM_SYS_NYI	syscall_names.cpp	/^  NUM_SYS_NYI,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_UNKNOWN	syscall_names.cpp	/^  NUM_SYS_UNKNOWN,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS__llseek	syscall_names.cpp	/^  NUM_SYS__llseek,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS__newselect	syscall_names.cpp	/^  NUM_SYS__newselect,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS__sysctl	syscall_names.cpp	/^  NUM_SYS__sysctl,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_access	syscall_names.cpp	/^  NUM_SYS_access,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_acct	syscall_names.cpp	/^  NUM_SYS_acct,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_adjtimex	syscall_names.cpp	/^  NUM_SYS_adjtimex,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_afs_syscall	syscall_names.cpp	/^  NUM_SYS_afs_syscall,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_alarm	syscall_names.cpp	/^  NUM_SYS_alarm,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_alloc_hugepages	syscall_names.cpp	/^  NUM_SYS_alloc_hugepages,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_bdflush	syscall_names.cpp	/^  NUM_SYS_bdflush,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_break	syscall_names.cpp	/^  NUM_SYS_break,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_brk	syscall_names.cpp	/^  NUM_SYS_brk,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_capget	syscall_names.cpp	/^  NUM_SYS_capget,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_capset	syscall_names.cpp	/^  NUM_SYS_capset,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_chdir	syscall_names.cpp	/^  NUM_SYS_chdir,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_chmod	syscall_names.cpp	/^  NUM_SYS_chmod,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_chown	syscall_names.cpp	/^  NUM_SYS_chown,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_chown32	syscall_names.cpp	/^  NUM_SYS_chown32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_chroot	syscall_names.cpp	/^  NUM_SYS_chroot,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_clone	syscall_names.cpp	/^  NUM_SYS_clone,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_close	syscall_names.cpp	/^  NUM_SYS_close,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_creat	syscall_names.cpp	/^  NUM_SYS_creat,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_create_module	syscall_names.cpp	/^  NUM_SYS_create_module,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_delete_module	syscall_names.cpp	/^  NUM_SYS_delete_module,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_dup	syscall_names.cpp	/^  NUM_SYS_dup,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_dup2	syscall_names.cpp	/^  NUM_SYS_dup2,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_execve	syscall_names.cpp	/^  NUM_SYS_execve,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_exit	syscall_names.cpp	/^  NUM_SYS_exit,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_exit_group	syscall_names.cpp	/^  NUM_SYS_exit_group,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_fchdir	syscall_names.cpp	/^  NUM_SYS_fchdir,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_fchmod	syscall_names.cpp	/^  NUM_SYS_fchmod,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_fchown	syscall_names.cpp	/^  NUM_SYS_fchown,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_fchown32	syscall_names.cpp	/^  NUM_SYS_fchown32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_fcntl	syscall_names.cpp	/^  NUM_SYS_fcntl,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_fcntl64	syscall_names.cpp	/^  NUM_SYS_fcntl64,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_fdatasync	syscall_names.cpp	/^  NUM_SYS_fdatasync,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_fgetxattr	syscall_names.cpp	/^  NUM_SYS_fgetxattr,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_flistxattr	syscall_names.cpp	/^  NUM_SYS_flistxattr,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_flock	syscall_names.cpp	/^  NUM_SYS_flock,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_fork	syscall_names.cpp	/^  NUM_SYS_fork,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_free_hugepages	syscall_names.cpp	/^  NUM_SYS_free_hugepages,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_fremovexattr	syscall_names.cpp	/^  NUM_SYS_fremovexattr,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_fsetxattr	syscall_names.cpp	/^  NUM_SYS_fsetxattr,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_fstat	syscall_names.cpp	/^  NUM_SYS_fstat,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_fstat64	syscall_names.cpp	/^  NUM_SYS_fstat64,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_fstatfs	syscall_names.cpp	/^  NUM_SYS_fstatfs,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_fsync	syscall_names.cpp	/^  NUM_SYS_fsync,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_ftime	syscall_names.cpp	/^  NUM_SYS_ftime,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_ftruncate	syscall_names.cpp	/^  NUM_SYS_ftruncate,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_ftruncate64	syscall_names.cpp	/^  NUM_SYS_ftruncate64,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_futex	syscall_names.cpp	/^  NUM_SYS_futex,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_get_kernel_syms	syscall_names.cpp	/^  NUM_SYS_get_kernel_syms,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_get_thread_area	syscall_names.cpp	/^  NUM_SYS_get_thread_area,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getcwd	syscall_names.cpp	/^  NUM_SYS_getcwd,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getdents	syscall_names.cpp	/^  NUM_SYS_getdents,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getdents64	syscall_names.cpp	/^  NUM_SYS_getdents64,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getegid	syscall_names.cpp	/^  NUM_SYS_getegid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getegid32	syscall_names.cpp	/^  NUM_SYS_getegid32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_geteuid	syscall_names.cpp	/^  NUM_SYS_geteuid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_geteuid32	syscall_names.cpp	/^  NUM_SYS_geteuid32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getgid	syscall_names.cpp	/^  NUM_SYS_getgid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getgid32	syscall_names.cpp	/^  NUM_SYS_getgid32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getgroups	syscall_names.cpp	/^  NUM_SYS_getgroups,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getgroups32	syscall_names.cpp	/^  NUM_SYS_getgroups32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getitimer	syscall_names.cpp	/^  NUM_SYS_getitimer,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getpgid	syscall_names.cpp	/^  NUM_SYS_getpgid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getpgrp	syscall_names.cpp	/^  NUM_SYS_getpgrp,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getpid	syscall_names.cpp	/^  NUM_SYS_getpid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getpmsg	syscall_names.cpp	/^  NUM_SYS_getpmsg,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getppid	syscall_names.cpp	/^  NUM_SYS_getppid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getpriority	syscall_names.cpp	/^  NUM_SYS_getpriority,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getresgid	syscall_names.cpp	/^  NUM_SYS_getresgid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getresgid32	syscall_names.cpp	/^  NUM_SYS_getresgid32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getresuid	syscall_names.cpp	/^  NUM_SYS_getresuid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getresuid32	syscall_names.cpp	/^  NUM_SYS_getresuid32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getrlimit	syscall_names.cpp	/^  NUM_SYS_getrlimit,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getrusage	syscall_names.cpp	/^  NUM_SYS_getrusage,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getsid	syscall_names.cpp	/^  NUM_SYS_getsid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_gettid	syscall_names.cpp	/^  NUM_SYS_gettid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_gettimeofday	syscall_names.cpp	/^  NUM_SYS_gettimeofday,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getuid	syscall_names.cpp	/^  NUM_SYS_getuid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getuid32	syscall_names.cpp	/^  NUM_SYS_getuid32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_getxattr	syscall_names.cpp	/^  NUM_SYS_getxattr,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_gtty	syscall_names.cpp	/^  NUM_SYS_gtty,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_idle	syscall_names.cpp	/^  NUM_SYS_idle,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_init_module	syscall_names.cpp	/^  NUM_SYS_init_module,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_io_cancel	syscall_names.cpp	/^  NUM_SYS_io_cancel,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_io_destroy	syscall_names.cpp	/^  NUM_SYS_io_destroy,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_io_getevents	syscall_names.cpp	/^  NUM_SYS_io_getevents,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_io_setup	syscall_names.cpp	/^  NUM_SYS_io_setup,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_io_submit	syscall_names.cpp	/^  NUM_SYS_io_submit,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_ioctl	syscall_names.cpp	/^  NUM_SYS_ioctl,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_ioperm	syscall_names.cpp	/^  NUM_SYS_ioperm,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_iopl	syscall_names.cpp	/^  NUM_SYS_iopl,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_ipc	syscall_names.cpp	/^  NUM_SYS_ipc,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_kill	syscall_names.cpp	/^  NUM_SYS_kill,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_lchown	syscall_names.cpp	/^  NUM_SYS_lchown,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_lchown32	syscall_names.cpp	/^  NUM_SYS_lchown32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_lgetxattr	syscall_names.cpp	/^  NUM_SYS_lgetxattr,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_link	syscall_names.cpp	/^  NUM_SYS_link,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_listxattr	syscall_names.cpp	/^  NUM_SYS_listxattr,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_llistxattr	syscall_names.cpp	/^  NUM_SYS_llistxattr,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_lock	syscall_names.cpp	/^  NUM_SYS_lock,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_lremovexattr	syscall_names.cpp	/^  NUM_SYS_lremovexattr,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_lseek	syscall_names.cpp	/^  NUM_SYS_lseek,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_lsetxattr	syscall_names.cpp	/^  NUM_SYS_lsetxattr,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_lstat	syscall_names.cpp	/^  NUM_SYS_lstat,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_lstat64	syscall_names.cpp	/^  NUM_SYS_lstat64,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_madvise	syscall_names.cpp	/^  NUM_SYS_madvise,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_madvise1	syscall_names.cpp	/^  NUM_SYS_madvise1,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_mincore	syscall_names.cpp	/^  NUM_SYS_mincore,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_mkdir	syscall_names.cpp	/^  NUM_SYS_mkdir,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_mknod	syscall_names.cpp	/^  NUM_SYS_mknod,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_mlock	syscall_names.cpp	/^  NUM_SYS_mlock,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_mlockall	syscall_names.cpp	/^  NUM_SYS_mlockall,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_mmap	syscall_names.cpp	/^  NUM_SYS_mmap,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_mmap2	syscall_names.cpp	/^  NUM_SYS_mmap2,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_modify_ldt	syscall_names.cpp	/^  NUM_SYS_modify_ldt,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_mount	syscall_names.cpp	/^  NUM_SYS_mount,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_mprotect	syscall_names.cpp	/^  NUM_SYS_mprotect,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_mpx	syscall_names.cpp	/^  NUM_SYS_mpx,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_mremap	syscall_names.cpp	/^  NUM_SYS_mremap,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_msync	syscall_names.cpp	/^  NUM_SYS_msync,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_munlock	syscall_names.cpp	/^  NUM_SYS_munlock,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_munlockall	syscall_names.cpp	/^  NUM_SYS_munlockall,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_munmap	syscall_names.cpp	/^  NUM_SYS_munmap,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_nanosleep	syscall_names.cpp	/^  NUM_SYS_nanosleep,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_nfsservctl	syscall_names.cpp	/^  NUM_SYS_nfsservctl,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_nice	syscall_names.cpp	/^  NUM_SYS_nice,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_oldfstat	syscall_names.cpp	/^  NUM_SYS_oldfstat,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_oldlstat	syscall_names.cpp	/^  NUM_SYS_oldlstat,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_oldolduname	syscall_names.cpp	/^  NUM_SYS_oldolduname,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_oldstat	syscall_names.cpp	/^  NUM_SYS_oldstat,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_olduname	syscall_names.cpp	/^  NUM_SYS_olduname,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_open	syscall_names.cpp	/^  NUM_SYS_open,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_pause	syscall_names.cpp	/^  NUM_SYS_pause,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_personality	syscall_names.cpp	/^  NUM_SYS_personality,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_pipe	syscall_names.cpp	/^  NUM_SYS_pipe,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_pivot_root	syscall_names.cpp	/^  NUM_SYS_pivot_root,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_poll	syscall_names.cpp	/^  NUM_SYS_poll,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_prctl	syscall_names.cpp	/^  NUM_SYS_prctl,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_pread64	syscall_names.cpp	/^  NUM_SYS_pread64,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_prof	syscall_names.cpp	/^  NUM_SYS_prof,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_profil	syscall_names.cpp	/^  NUM_SYS_profil,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_ptrace	syscall_names.cpp	/^  NUM_SYS_ptrace,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_putpmsg	syscall_names.cpp	/^  NUM_SYS_putpmsg,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_pwrite64	syscall_names.cpp	/^  NUM_SYS_pwrite64,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_query_module	syscall_names.cpp	/^  NUM_SYS_query_module,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_quotactl	syscall_names.cpp	/^  NUM_SYS_quotactl,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_read	syscall_names.cpp	/^  NUM_SYS_read,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_readahead	syscall_names.cpp	/^  NUM_SYS_readahead,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_readdir	syscall_names.cpp	/^  NUM_SYS_readdir,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_readlink	syscall_names.cpp	/^  NUM_SYS_readlink,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_readv	syscall_names.cpp	/^  NUM_SYS_readv,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_reboot	syscall_names.cpp	/^  NUM_SYS_reboot,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_removexattr	syscall_names.cpp	/^  NUM_SYS_removexattr,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_rename	syscall_names.cpp	/^  NUM_SYS_rename,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_restart_syscall	syscall_names.cpp	/^  NUM_SYS_restart_syscall,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_rmdir	syscall_names.cpp	/^  NUM_SYS_rmdir,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_rt_sigaction	syscall_names.cpp	/^  NUM_SYS_rt_sigaction,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_rt_sigpending	syscall_names.cpp	/^  NUM_SYS_rt_sigpending,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_rt_sigprocmask	syscall_names.cpp	/^  NUM_SYS_rt_sigprocmask,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_rt_sigqueueinfo	syscall_names.cpp	/^  NUM_SYS_rt_sigqueueinfo,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_rt_sigreturn	syscall_names.cpp	/^  NUM_SYS_rt_sigreturn,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_rt_sigsuspend	syscall_names.cpp	/^  NUM_SYS_rt_sigsuspend,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_rt_sigtimedwait	syscall_names.cpp	/^  NUM_SYS_rt_sigtimedwait,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sched_get_priority_max	syscall_names.cpp	/^  NUM_SYS_sched_get_priority_max,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sched_get_priority_min	syscall_names.cpp	/^  NUM_SYS_sched_get_priority_min,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sched_getaffinity	syscall_names.cpp	/^  NUM_SYS_sched_getaffinity,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sched_getparam	syscall_names.cpp	/^  NUM_SYS_sched_getparam,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sched_getscheduler	syscall_names.cpp	/^  NUM_SYS_sched_getscheduler,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sched_rr_get_interval	syscall_names.cpp	/^  NUM_SYS_sched_rr_get_interval,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sched_setaffinity	syscall_names.cpp	/^  NUM_SYS_sched_setaffinity,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sched_setparam	syscall_names.cpp	/^  NUM_SYS_sched_setparam,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sched_setscheduler	syscall_names.cpp	/^  NUM_SYS_sched_setscheduler,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sched_yield	syscall_names.cpp	/^  NUM_SYS_sched_yield,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_security	syscall_names.cpp	/^  NUM_SYS_security,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_select	syscall_names.cpp	/^  NUM_SYS_select,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sendfile	syscall_names.cpp	/^  NUM_SYS_sendfile,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sendfile64	syscall_names.cpp	/^  NUM_SYS_sendfile64,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_set_thread_area	syscall_names.cpp	/^  NUM_SYS_set_thread_area,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_set_tid_address	syscall_names.cpp	/^  NUM_SYS_set_tid_address$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setdomainname	syscall_names.cpp	/^  NUM_SYS_setdomainname,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setfsgid	syscall_names.cpp	/^  NUM_SYS_setfsgid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setfsgid32	syscall_names.cpp	/^  NUM_SYS_setfsgid32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setfsuid	syscall_names.cpp	/^  NUM_SYS_setfsuid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setfsuid32	syscall_names.cpp	/^  NUM_SYS_setfsuid32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setgid	syscall_names.cpp	/^  NUM_SYS_setgid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setgid32	syscall_names.cpp	/^  NUM_SYS_setgid32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setgroups	syscall_names.cpp	/^  NUM_SYS_setgroups,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setgroups32	syscall_names.cpp	/^  NUM_SYS_setgroups32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sethostname	syscall_names.cpp	/^  NUM_SYS_sethostname,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setitimer	syscall_names.cpp	/^  NUM_SYS_setitimer,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setpgid	syscall_names.cpp	/^  NUM_SYS_setpgid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setpriority	syscall_names.cpp	/^  NUM_SYS_setpriority,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setregid	syscall_names.cpp	/^  NUM_SYS_setregid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setregid32	syscall_names.cpp	/^  NUM_SYS_setregid32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setresgid	syscall_names.cpp	/^  NUM_SYS_setresgid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setresgid32	syscall_names.cpp	/^  NUM_SYS_setresgid32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setresuid	syscall_names.cpp	/^  NUM_SYS_setresuid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setresuid32	syscall_names.cpp	/^  NUM_SYS_setresuid32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setreuid	syscall_names.cpp	/^  NUM_SYS_setreuid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setreuid32	syscall_names.cpp	/^  NUM_SYS_setreuid32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setrlimit	syscall_names.cpp	/^  NUM_SYS_setrlimit,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setsid	syscall_names.cpp	/^  NUM_SYS_setsid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_settimeofday	syscall_names.cpp	/^  NUM_SYS_settimeofday,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setuid	syscall_names.cpp	/^  NUM_SYS_setuid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setuid32	syscall_names.cpp	/^  NUM_SYS_setuid32,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_setxattr	syscall_names.cpp	/^  NUM_SYS_setxattr,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sgetmask	syscall_names.cpp	/^  NUM_SYS_sgetmask,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sigaction	syscall_names.cpp	/^  NUM_SYS_sigaction,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sigaltstack	syscall_names.cpp	/^  NUM_SYS_sigaltstack,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_signal	syscall_names.cpp	/^  NUM_SYS_signal,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sigpending	syscall_names.cpp	/^  NUM_SYS_sigpending,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sigprocmask	syscall_names.cpp	/^  NUM_SYS_sigprocmask,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sigreturn	syscall_names.cpp	/^  NUM_SYS_sigreturn,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sigsuspend	syscall_names.cpp	/^  NUM_SYS_sigsuspend,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_socketcall	syscall_names.cpp	/^  NUM_SYS_socketcall,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_ssetmask	syscall_names.cpp	/^  NUM_SYS_ssetmask,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_stat	syscall_names.cpp	/^  NUM_SYS_stat,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_stat64	syscall_names.cpp	/^  NUM_SYS_stat64,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_statfs	syscall_names.cpp	/^  NUM_SYS_statfs,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_stime	syscall_names.cpp	/^  NUM_SYS_stime,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_stty	syscall_names.cpp	/^  NUM_SYS_stty,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_swapoff	syscall_names.cpp	/^  NUM_SYS_swapoff,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_swapon	syscall_names.cpp	/^  NUM_SYS_swapon,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_symlink	syscall_names.cpp	/^  NUM_SYS_symlink,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sync	syscall_names.cpp	/^  NUM_SYS_sync,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sysfs	syscall_names.cpp	/^  NUM_SYS_sysfs,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_sysinfo	syscall_names.cpp	/^  NUM_SYS_sysinfo,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_syslog	syscall_names.cpp	/^  NUM_SYS_syslog,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_time	syscall_names.cpp	/^  NUM_SYS_time,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_times	syscall_names.cpp	/^  NUM_SYS_times,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_tkill	syscall_names.cpp	/^  NUM_SYS_tkill,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_truncate	syscall_names.cpp	/^  NUM_SYS_truncate,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_truncate64	syscall_names.cpp	/^  NUM_SYS_truncate64,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_ugetrlimit	syscall_names.cpp	/^  NUM_SYS_ugetrlimit,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_ulimit	syscall_names.cpp	/^  NUM_SYS_ulimit,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_umask	syscall_names.cpp	/^  NUM_SYS_umask,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_umount	syscall_names.cpp	/^  NUM_SYS_umount,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_umount2	syscall_names.cpp	/^  NUM_SYS_umount2,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_uname	syscall_names.cpp	/^  NUM_SYS_uname,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_unlink	syscall_names.cpp	/^  NUM_SYS_unlink,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_uselib	syscall_names.cpp	/^  NUM_SYS_uselib,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_ustat	syscall_names.cpp	/^  NUM_SYS_ustat,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_utime	syscall_names.cpp	/^  NUM_SYS_utime,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_vfork	syscall_names.cpp	/^  NUM_SYS_vfork,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_vhangup	syscall_names.cpp	/^  NUM_SYS_vhangup,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_vm86	syscall_names.cpp	/^  NUM_SYS_vm86,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_vm86old	syscall_names.cpp	/^  NUM_SYS_vm86old,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_wait4	syscall_names.cpp	/^  NUM_SYS_wait4,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_waitpid	syscall_names.cpp	/^  NUM_SYS_waitpid,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_write	syscall_names.cpp	/^  NUM_SYS_write,$/;"	e	enum:SYSCALL_NUMS	file:
+NUM_SYS_writev	syscall_names.cpp	/^  NUM_SYS_writev,$/;"	e	enum:SYSCALL_NUMS	file:
+Output	Maid.cpp	/^ostream *Output;$/;"	v
+ProcessCall	CallStack.cpp	/^CallStack::ProcessCall(ADDRINT current_sp, ADDRINT target)$/;"	f	class:CallStack
+ProcessInst	Maid.cpp	/^void ProcessInst (ADDRINT ip)$/;"	f
+ProcessMainEntry	CallStack.cpp	/^CallStack::ProcessMainEntry(ADDRINT current_sp, ADDRINT target)$/;"	f	class:CallStack
+ProcessReturn	CallStack.cpp	/^CallStack::ProcessReturn(ADDRINT current_sp, bool prevIpDoesPush)$/;"	f	class:CallStack
+RecordPush	Maid.cpp	/^void RecordPush (INS ins)$/;"	f
+SYSCALL_NUMS	syscall_names.cpp	/^enum SYSCALL_NUMS {$/;"	g	file:
+SYS_SyscallName	syscall_names.cpp	/^const char *SYS_SyscallName(int num) $/;"	f
+Target2LibName	Maid.cpp	/^const string& Target2LibName(ADDRINT target)$/;"	f
+Target2RtnName	Maid.cpp	/^const string& Target2RtnName(ADDRINT target)$/;"	f
+_ARGV_READPARAM_H_	argv_readparam.h	32;"	d
+_CALLSTACK_H_	CallStack.H	32;"	d
+_SYSCALL_NAMES_H_	syscall_names.H	32;"	d
+_Target2LibName	CallStack.H	/^  const string& (*_Target2LibName)(ADDRINT);$/;"	m	class:CallStack
+_Target2RtnName	CallStack.H	/^  const string& (*_Target2RtnName)(ADDRINT);$/;"	m	class:CallStack
+_activations	CallStack.H	/^  vector<Activation> _activations;$/;"	m	class:CallStack
+_current_sp	CallStack.H	/^  ADDRINT _current_sp;$/;"	m	class:Activation
+_depth	CallStack.H	/^  UINT32 _depth;$/;"	m	class:Activation
+_enter_opaque_lib_entry	CallStack.H	/^  UINT64 _enter_opaque_lib_entry;$/;"	m	class:CallStack
+_main_entry_depth	CallStack.H	/^  UINT64 _main_entry_depth;$/;"	m	class:CallStack
+_stackGeneration	CallStack.H	/^  UINT64 _stackGeneration;$/;"	m	class:CallStack
+_stackLastPrint	CallStack.H	/^  ADDRINT _stackLastPrint;$/;"	m	class:CallStack
+_syscall_names	syscall_names.cpp	/^const char *_syscall_names[] = {$/;"	v
+_target	CallStack.H	/^  ADDRINT _target;$/;"	m	class:Activation
+_vector_index	CallStack.H	/^  int _vector_index;             \/\/ index into Activations$/;"	m	class:Activation
+addrsToDump	Maid.cpp	/^set<void *> addrsToDump;$/;"	v
+argv_getInt	argv_readparam.cpp	/^argv_getInt(int argc, char *argv[], char *param, int *ret)$/;"	f
+argv_getLong	argv_readparam.cpp	/^argv_getLong(int argc, char** argv, char *param, long *ret)$/;"	f
+argv_getString	argv_readparam.cpp	/^argv_getString(int argc, char * argv[], char const * param, char **mem)$/;"	f
+argv_hasFlag	argv_readparam.cpp	/^argv_hasFlag(int argc, char *argv[], char param)$/;"	f
+argv_hasLongFlag	argv_readparam.cpp	/^argv_hasLongFlag(int argc, char *argv[], char *param)$/;"	f
+current_sp	CallStack.H	/^  ADDRINT current_sp() const { return _current_sp; }$/;"	f	class:Activation
+isOpaqueLib	CallStack.cpp	/^isOpaqueLib(const string& lib) {$/;"	f	file:
+isOpaqueRtn	CallStack.cpp	/^isOpaqueRtn(const string& rtn) {$/;"	f	file:
+main	Maid.cpp	/^main(int argc, char** argv)$/;"	f
+main_entry_seen	Maid.cpp	/^bool main_entry_seen = false;$/;"	v
+operator ==	CallStack.H	/^  bool operator==( const Activation& a) const {$/;"	f	class:Activation
+prevIpDoesPush	Maid.cpp	/^bool prevIpDoesPush = FALSE;$/;"	v
+pushIps	Maid.cpp	/^set<ADDRINT> pushIps;$/;"	v
+t2l	CallStack.H	/^  CallStack(const string& (*t2r)(ADDRINT), const string& (*t2l)(ADDRINT)) :$/;"	f	class:CallStack
+target	CallStack.H	/^  ADDRINT target() {return _target;}$/;"	f	class:Activation
+vector_index	CallStack.H	/^  int vector_index() const { return _vector_index; }$/;"	f	class:Activation
